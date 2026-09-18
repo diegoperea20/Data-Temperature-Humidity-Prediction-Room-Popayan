@@ -1,0 +1,26 @@
+================================================================================
+TRAINING LOG — LSTM_Medium | Fold 3
+Fecha inicio: 2026-05-14 22:14:19
+================================================================================
+Epoch      loss           mae            val_loss       val_mae       
+--------------------------------------------------------------------------------
+Epoch 1     loss=0.010063  mae=0.072711  val_loss=0.009584  val_mae=0.076788
+Epoch 2     loss=0.004469  mae=0.051109  val_loss=0.007662  val_mae=0.066347
+Epoch 3     loss=0.004122  mae=0.048975  val_loss=0.011740  val_mae=0.078040
+Epoch 4     loss=0.003917  mae=0.047634  val_loss=0.011778  val_mae=0.076905
+Epoch 5     loss=0.003629  mae=0.045595  val_loss=0.011705  val_mae=0.077146
+Epoch 6     loss=0.003324  mae=0.043507  val_loss=0.008073  val_mae=0.065693
+Epoch 7     loss=0.002995  mae=0.041158  val_loss=0.009269  val_mae=0.071206
+Epoch 8     loss=0.002787  mae=0.039593  val_loss=0.010706  val_mae=0.076205
+Epoch 9     loss=0.002678  mae=0.038730  val_loss=0.006789  val_mae=0.060049
+Epoch 10    loss=0.002563  mae=0.037816  val_loss=0.008361  val_mae=0.068038
+Epoch 11    loss=0.002388  mae=0.036188  val_loss=0.007640  val_mae=0.065184
+Epoch 12    loss=0.002313  mae=0.035471  val_loss=0.007378  val_mae=0.063911
+Epoch 13    loss=0.002234  mae=0.034812  val_loss=0.007515  val_mae=0.063241
+Epoch 14    loss=0.002155  mae=0.034203  val_loss=0.007624  val_mae=0.064487
+Epoch 15    loss=0.002104  mae=0.033663  val_loss=0.007810  val_mae=0.065945
+Epoch 16    loss=0.002078  mae=0.033309  val_loss=0.008150  val_mae=0.066831
+--------------------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-14 22:41:58
+================================================================================
+

@@ -1,0 +1,69 @@
+======================================================================
+MÉTRICAS FINALES — MLP_Light_Dropout
+Fecha: 2026-05-15 22:51:59
+======================================================================
+
+── MÉTRICAS GLOBALES DEL ENTRENAMIENTO ──
+  Épocas entrenadas:         27
+  Train Loss (última época): 0.005523
+  Val Loss   (última época): 0.017058
+  Train MAE  (última época): 0.055097
+  Val MAE    (última época): 0.093189
+
+  Gap (overfitting indicator):
+    Gap = (val_loss - train_loss) / train_loss
+    Gap = (0.017058 - 0.005523) / 0.005523
+    Gap = 2.088539  ⚠️  ALTO → posible overfitting
+
+  STD de val_loss (estabilidad durante entrenamiento): 0.004224
+  STD de train_loss:                                   0.000700
+
+── MÉTRICAS POR VARIABLE (test set, espacio original) ──
+
+  [temperatureC]
+    R²:                  -0.032116
+    STD real:            1.643468
+    STD pred:            1.251427
+    Val MAE* (esc.):     0.093189  (* última época, espacio escalado)
+    MAE (orig):          1.360709
+    RMSE:                1.669650
+    MAPE:                5.7388%
+    Correlación:         0.775591
+    Gap (global modelo): 2.088539
+
+  [humidityporc]
+    R²:                  -0.041695
+    STD real:            5.364716
+    STD pred:            2.143121
+    Val MAE* (esc.):     0.093189  (* última época, espacio escalado)
+    MAE (orig):          4.181536
+    RMSE:                5.475414
+    MAPE:                6.7607%
+    Correlación:         0.507174
+    Gap (global modelo): 2.088539
+
+  [temperatureC2]
+    R²:                  0.588733
+    STD real:            5.280794
+    STD pred:            4.244863
+    Val MAE* (esc.):     0.093189  (* última época, espacio escalado)
+    MAE (orig):          2.222386
+    RMSE:                3.386577
+    MAPE:                8.6135%
+    Correlación:         0.818217
+    Gap (global modelo): 2.088539
+
+  [humidityporc2]
+    R²:                  0.206605
+    STD real:            11.901924
+    STD pred:            9.088161
+    Val MAE* (esc.):     0.093189  (* última época, espacio escalado)
+    MAE (orig):          8.845160
+    RMSE:                10.601365
+    MAPE:                17.8856%
+    Correlación:         0.849477
+    Gap (global modelo): 2.088539
+
+======================================================================
+FIN DEL REPORTE
+======================================================================

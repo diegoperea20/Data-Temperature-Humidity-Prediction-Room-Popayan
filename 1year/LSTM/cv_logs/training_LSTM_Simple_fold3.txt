@@ -1,0 +1,29 @@
+================================================================================
+TRAINING LOG — LSTM_Simple | Fold 3
+Fecha inicio: 2026-05-14 18:07:17
+================================================================================
+Epoch      loss           mae            val_loss       val_mae       
+--------------------------------------------------------------------------------
+Epoch 1     loss=0.013922  mae=0.083351  val_loss=0.011395  val_mae=0.083981
+Epoch 2     loss=0.004591  mae=0.051885  val_loss=0.008702  val_mae=0.072204
+Epoch 3     loss=0.004172  mae=0.049175  val_loss=0.009244  val_mae=0.071100
+Epoch 4     loss=0.004060  mae=0.048439  val_loss=0.006467  val_mae=0.060443
+Epoch 5     loss=0.003866  mae=0.047133  val_loss=0.011728  val_mae=0.078750
+Epoch 6     loss=0.003671  mae=0.045756  val_loss=0.006848  val_mae=0.060993
+Epoch 7     loss=0.003213  mae=0.042537  val_loss=0.006678  val_mae=0.059556
+Epoch 8     loss=0.002969  mae=0.040744  val_loss=0.005880  val_mae=0.057301
+Epoch 9     loss=0.002771  mae=0.039264  val_loss=0.007111  val_mae=0.064247
+Epoch 10    loss=0.002680  mae=0.038444  val_loss=0.006030  val_mae=0.058307
+Epoch 11    loss=0.002597  mae=0.037700  val_loss=0.005737  val_mae=0.056433
+Epoch 12    loss=0.002508  mae=0.036940  val_loss=0.005559  val_mae=0.055557
+Epoch 13    loss=0.002425  mae=0.036125  val_loss=0.005805  val_mae=0.056051
+Epoch 14    loss=0.002358  mae=0.035647  val_loss=0.006127  val_mae=0.057240
+Epoch 15    loss=0.002299  mae=0.035097  val_loss=0.005988  val_mae=0.056770
+Epoch 16    loss=0.002308  mae=0.035081  val_loss=0.007572  val_mae=0.064440
+Epoch 17    loss=0.002232  mae=0.034433  val_loss=0.006620  val_mae=0.059583
+Epoch 18    loss=0.002210  mae=0.034152  val_loss=0.006303  val_mae=0.058161
+Epoch 19    loss=0.002187  mae=0.033845  val_loss=0.006340  val_mae=0.057624
+--------------------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-14 18:27:22
+================================================================================
+

@@ -1,0 +1,86 @@
+================================================================================
+TRAINING LOG — Conv1D_Original
+Fecha inicio: 2026-05-14 09:40:45
+================================================================================
+Epoch      loss           mae            val_loss       val_mae       
+--------------------------------------------------------------------------------
+Epoch 1     loss=0.001541  mae=0.021984  val_loss=0.001072  val_mae=0.019021
+Epoch 2     loss=0.000904  mae=0.018494  val_loss=0.000786  val_mae=0.017664
+Epoch 3     loss=0.000772  mae=0.017179  val_loss=0.000828  val_mae=0.018280
+Epoch 4     loss=0.000726  mae=0.016571  val_loss=0.000817  val_mae=0.016991
+Epoch 5     loss=0.000695  mae=0.016153  val_loss=0.000899  val_mae=0.017234
+Epoch 6     loss=0.000674  mae=0.015894  val_loss=0.000662  val_mae=0.015452
+Epoch 7     loss=0.000663  mae=0.015717  val_loss=0.000959  val_mae=0.018936
+Epoch 8     loss=0.000644  mae=0.015487  val_loss=0.000621  val_mae=0.015117
+Epoch 9     loss=0.000638  mae=0.015401  val_loss=0.000825  val_mae=0.015596
+Epoch 10    loss=0.000624  mae=0.015208  val_loss=0.000702  val_mae=0.013811
+Epoch 11    loss=0.000622  mae=0.015133  val_loss=0.000622  val_mae=0.015864
+Epoch 12    loss=0.000612  mae=0.015040  val_loss=0.000662  val_mae=0.015559
+Epoch 13    loss=0.000607  mae=0.014961  val_loss=0.000658  val_mae=0.014545
+Epoch 14    loss=0.000600  mae=0.014879  val_loss=0.000855  val_mae=0.016020
+Epoch 15    loss=0.000594  mae=0.014784  val_loss=0.000852  val_mae=0.015404
+Epoch 16    loss=0.000590  mae=0.014739  val_loss=0.000526  val_mae=0.012661
+Epoch 17    loss=0.000586  mae=0.014676  val_loss=0.000559  val_mae=0.012868
+Epoch 18    loss=0.000583  mae=0.014634  val_loss=0.000863  val_mae=0.017351
+Epoch 19    loss=0.000580  mae=0.014609  val_loss=0.000672  val_mae=0.014141
+Epoch 20    loss=0.000575  mae=0.014543  val_loss=0.000639  val_mae=0.015828
+Epoch 21    loss=0.000574  mae=0.014500  val_loss=0.000518  val_mae=0.013255
+Epoch 22    loss=0.000573  mae=0.014508  val_loss=0.000518  val_mae=0.013470
+Epoch 23    loss=0.000565  mae=0.014403  val_loss=0.000640  val_mae=0.015871
+Epoch 24    loss=0.000565  mae=0.014386  val_loss=0.000555  val_mae=0.013156
+Epoch 25    loss=0.000558  mae=0.014327  val_loss=0.000540  val_mae=0.012889
+Epoch 26    loss=0.000557  mae=0.014279  val_loss=0.000545  val_mae=0.014708
+Epoch 27    loss=0.000555  mae=0.014276  val_loss=0.000550  val_mae=0.013453
+Epoch 28    loss=0.000553  mae=0.014242  val_loss=0.000629  val_mae=0.015452
+Epoch 29    loss=0.000553  mae=0.014235  val_loss=0.000545  val_mae=0.013609
+Epoch 30    loss=0.000547  mae=0.014168  val_loss=0.000527  val_mae=0.012461
+Epoch 31    loss=0.000545  mae=0.014136  val_loss=0.000549  val_mae=0.012963
+Epoch 32    loss=0.000544  mae=0.014129  val_loss=0.000615  val_mae=0.014833
+Epoch 33    loss=0.000542  mae=0.014119  val_loss=0.000545  val_mae=0.013260
+Epoch 34    loss=0.000539  mae=0.014069  val_loss=0.000544  val_mae=0.012903
+Epoch 35    loss=0.000538  mae=0.014075  val_loss=0.000492  val_mae=0.012129
+Epoch 36    loss=0.000537  mae=0.014012  val_loss=0.000539  val_mae=0.013763
+Epoch 37    loss=0.000534  mae=0.013996  val_loss=0.000495  val_mae=0.011896
+Epoch 38    loss=0.000532  mae=0.013968  val_loss=0.000514  val_mae=0.013125
+Epoch 39    loss=0.000534  mae=0.013998  val_loss=0.000512  val_mae=0.012944
+Epoch 40    loss=0.000531  mae=0.013955  val_loss=0.000488  val_mae=0.011898
+Epoch 41    loss=0.000530  mae=0.013932  val_loss=0.000631  val_mae=0.015571
+Epoch 42    loss=0.000528  mae=0.013921  val_loss=0.000474  val_mae=0.011731
+Epoch 43    loss=0.000530  mae=0.013945  val_loss=0.000476  val_mae=0.011799
+Epoch 44    loss=0.000525  mae=0.013858  val_loss=0.000476  val_mae=0.011401
+Epoch 45    loss=0.000525  mae=0.013894  val_loss=0.000496  val_mae=0.012179
+Epoch 46    loss=0.000524  mae=0.013861  val_loss=0.000469  val_mae=0.011557
+Epoch 47    loss=0.000524  mae=0.013878  val_loss=0.000529  val_mae=0.013266
+Epoch 48    loss=0.000520  mae=0.013837  val_loss=0.000503  val_mae=0.012251
+Epoch 49    loss=0.000521  mae=0.013829  val_loss=0.000486  val_mae=0.012352
+Epoch 50    loss=0.000517  mae=0.013784  val_loss=0.000512  val_mae=0.013054
+Epoch 51    loss=0.000517  mae=0.013773  val_loss=0.000502  val_mae=0.012742
+Epoch 52    loss=0.000517  mae=0.013778  val_loss=0.000462  val_mae=0.011998
+Epoch 53    loss=0.000516  mae=0.013788  val_loss=0.000485  val_mae=0.012947
+Epoch 54    loss=0.000515  mae=0.013742  val_loss=0.000594  val_mae=0.013537
+Epoch 55    loss=0.000515  mae=0.013756  val_loss=0.000475  val_mae=0.011355
+Epoch 56    loss=0.000512  mae=0.013730  val_loss=0.000489  val_mae=0.011958
+Epoch 57    loss=0.000511  mae=0.013703  val_loss=0.000484  val_mae=0.012535
+Epoch 58    loss=0.000509  mae=0.013680  val_loss=0.000499  val_mae=0.012154
+Epoch 59    loss=0.000508  mae=0.013649  val_loss=0.000561  val_mae=0.013791
+Epoch 60    loss=0.000509  mae=0.013676  val_loss=0.000510  val_mae=0.012166
+Epoch 61    loss=0.000506  mae=0.013648  val_loss=0.000453  val_mae=0.011399
+Epoch 62    loss=0.000508  mae=0.013662  val_loss=0.000495  val_mae=0.012071
+Epoch 63    loss=0.000505  mae=0.013619  val_loss=0.000478  val_mae=0.012076
+Epoch 64    loss=0.000503  mae=0.013601  val_loss=0.000531  val_mae=0.013248
+Epoch 65    loss=0.000506  mae=0.013656  val_loss=0.000542  val_mae=0.013839
+Epoch 66    loss=0.000503  mae=0.013617  val_loss=0.000470  val_mae=0.012230
+Epoch 67    loss=0.000504  mae=0.013609  val_loss=0.000490  val_mae=0.011228
+Epoch 68    loss=0.000499  mae=0.013567  val_loss=0.000547  val_mae=0.012179
+Epoch 69    loss=0.000503  mae=0.013601  val_loss=0.000481  val_mae=0.012453
+Epoch 70    loss=0.000499  mae=0.013558  val_loss=0.000499  val_mae=0.011807
+Epoch 71    loss=0.000499  mae=0.013548  val_loss=0.000501  val_mae=0.012218
+Epoch 72    loss=0.000498  mae=0.013550  val_loss=0.000544  val_mae=0.013059
+Epoch 73    loss=0.000497  mae=0.013504  val_loss=0.000553  val_mae=0.012167
+Epoch 74    loss=0.000498  mae=0.013539  val_loss=0.000460  val_mae=0.011339
+Epoch 75    loss=0.000496  mae=0.013529  val_loss=0.000478  val_mae=0.012457
+Epoch 76    loss=0.000495  mae=0.013509  val_loss=0.000517  val_mae=0.012975
+--------------------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-14 12:32:22
+================================================================================
+

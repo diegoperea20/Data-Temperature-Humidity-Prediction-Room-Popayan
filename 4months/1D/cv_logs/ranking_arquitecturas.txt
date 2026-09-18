@@ -1,0 +1,58 @@
+================================================================================
+RANKING DE ARQUITECTURAS Conv1D — CROSS-VALIDATION
+Fecha: 2026-05-19 09:09:48
+N_FOLDS=3 | FILTER: R²≥0.2 | Gap≤1.8 | STD≤0.15
+================================================================================
+
+Pos   Arquitectura           R²_mean      STD_R²       MAE_mean     Gap_mean     Score      Elegible
+------------------------------------------------------------------------------------------
+1     Conv1D_Original        0.943480     0.016759     0.860775     0.248333     0.900000   ✅
+2     Conv1D_Simple          0.918808     0.034968     1.118425     0.224175     0.331526   ✅
+3     Conv1D_Medium          0.903449     0.036154     1.217169     -0.007395    0.204230   ✅
+4     Conv1D_Complex         0.896826     0.038111     1.255474     0.005658     0.094896   ✅
+
+================================================================================
+
+DETALLE POR ARQUITECTURA:
+
+  [Conv1D_Original]  Score=0.900000  ELEGIBLE
+    Promedio R²:   0.943480
+    STD(R²):       0.016759
+    Promedio MAE:  0.860775
+    Promedio Gap:  0.248333
+    [temperatureC] R²=0.9649±0.0086 | MAE=0.1728±0.0382
+    [humidityporc] R²=0.9215±0.0238 | MAE=0.9503±0.2798
+    [temperatureC2] R²=0.9467±0.0008 | MAE=0.5747±0.0033
+    [humidityporc2] R²=0.9408±0.0067 | MAE=1.7453±0.1645
+
+  [Conv1D_Simple]  Score=0.331526  ELEGIBLE
+    Promedio R²:   0.918808
+    STD(R²):       0.034968
+    Promedio MAE:  1.118425
+    Promedio Gap:  0.224175
+    [temperatureC] R²=0.9532±0.0071 | MAE=0.2130±0.0299
+    [humidityporc] R²=0.8620±0.0242 | MAE=1.5247±0.3413
+    [temperatureC2] R²=0.9395±0.0038 | MAE=0.6076±0.0172
+    [humidityporc2] R²=0.9205±0.0146 | MAE=2.1285±0.2797
+
+  [Conv1D_Medium]  Score=0.204230  ELEGIBLE
+    Promedio R²:   0.903449
+    STD(R²):       0.036154
+    Promedio MAE:  1.217169
+    Promedio Gap:  -0.007395
+    [temperatureC] R²=0.9231±0.0192 | MAE=0.2918±0.0572
+    [humidityporc] R²=0.8434±0.0100 | MAE=1.6269±0.2109
+    [temperatureC2] R²=0.9351±0.0102 | MAE=0.6611±0.0657
+    [humidityporc2] R²=0.9122±0.0131 | MAE=2.2889±0.2221
+
+  [Conv1D_Complex]  Score=0.094896  ELEGIBLE
+    Promedio R²:   0.896826
+    STD(R²):       0.038111
+    Promedio MAE:  1.255474
+    Promedio Gap:  0.005658
+    [temperatureC] R²=0.9186±0.0172 | MAE=0.2953±0.0510
+    [humidityporc] R²=0.8329±0.0188 | MAE=1.6886±0.2914
+    [temperatureC2] R²=0.9295±0.0086 | MAE=0.7021±0.0515
+    [humidityporc2] R²=0.9063±0.0141 | MAE=2.3358±0.2158
+
+================================================================================

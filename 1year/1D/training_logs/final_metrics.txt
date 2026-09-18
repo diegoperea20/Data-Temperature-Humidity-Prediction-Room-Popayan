@@ -1,0 +1,64 @@
+================================================================================
+MÉTRICAS FINALES — Conv1D_Original
+Fecha: 2026-05-14 12:32:27
+================================================================================
+
+── MÉTRICAS GLOBALES DEL ENTRENAMIENTO FINAL ──
+  Épocas entrenadas:         76
+  Train Loss (última época): 0.000495
+  Val Loss   (última época): 0.000517
+  Train MAE  (última época): 0.013509
+  Val MAE    (última época): 0.012975
+
+  Gap = (val_loss - train_loss) / train_loss
+  Gap = (0.000517 - 0.000495) / 0.000495
+  Gap = 0.042740  ✅ BAJO → modelo generaliza bien
+
+  STD val_loss (estabilidad):  0.000131
+  STD train_loss:              0.000132
+
+── MÉTRICAS POR VARIABLE (test set, espacio original) ──
+
+  [temperatureC]
+    R²:          0.977120
+    STD real:    1.648993
+    STD pred:    1.612458
+    MAE:         0.132216
+    RMSE:        0.249430
+    MAPE:        0.5695%
+    Correlación: 0.988838
+    Gap (global modelo): 0.042740
+
+  [humidityporc]
+    R²:          0.951069
+    STD real:    5.378529
+    STD pred:    4.903543
+    MAE:         0.751999
+    RMSE:        1.189755
+    MAPE:        1.1840%
+    Correlación: 0.978849
+    Gap (global modelo): 0.042740
+
+  [temperatureC2]
+    R²:          0.958377
+    STD real:    5.281402
+    STD pred:    5.285094
+    MAE:         0.505543
+    RMSE:        1.077500
+    MAPE:        1.9847%
+    Correlación: 0.979206
+    Gap (global modelo): 0.042740
+
+  [humidityporc2]
+    R²:          0.964998
+    STD real:    11.897610
+    STD pred:    12.228649
+    MAE:         1.235556
+    RMSE:        2.225894
+    MAPE:        2.4182%
+    Correlación: 0.983363
+    Gap (global modelo): 0.042740
+
+================================================================================
+FIN DEL REPORTE
+================================================================================

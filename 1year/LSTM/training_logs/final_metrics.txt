@@ -1,0 +1,79 @@
+======================================================================
+MÉTRICAS FINALES — LSTM_Original
+Fecha: 2026-05-16 13:57:12
+======================================================================
+
+── MÉTRICAS GLOBALES DEL ENTRENAMIENTO ──
+  Épocas entrenadas:         17
+  Train Loss (última época): 0.000953
+  Val Loss   (última época): 0.018590
+  Train MAE  (última época): 0.021052
+  Val MAE    (última época): 0.104707
+
+  Gap (indicador de overfitting):
+    Gap = (val_loss - train_loss) / train_loss
+    Gap = (0.018590 - 0.000953) / 0.000953
+    Gap = 18.506614  ⚠️  ALTO → posible overfitting
+
+  STD de val_loss  (estabilidad): 0.001643
+  STD de train_loss:              0.001249
+
+── MÉTRICAS POR VARIABLE (test set, espacio original) ──
+
+  [temperatureC]
+    R²:                -0.018243
+    STD real:          1.643468
+    STD pred:          1.344023
+    MAE (orig):        1.324492
+    RMSE:              1.658391
+    MAPE:              5.5927%
+    Correlación:       0.749175
+    Val MAE (ult.ep.): 0.104707  (espacio escalado)
+    Gap (global):      18.506614
+
+  [humidityporc]
+    R²:                0.084977
+    STD real:          5.364716
+    STD pred:          1.975759
+    MAE (orig):        3.896315
+    RMSE:              5.131718
+    MAPE:              6.2496%
+    Correlación:       0.438940
+    Val MAE (ult.ep.): 0.104707  (espacio escalado)
+    Gap (global):      18.506614
+
+  [temperatureC2]
+    R²:                0.231076
+    STD real:          5.280794
+    STD pred:          2.262838
+    MAE (orig):        2.631362
+    RMSE:              4.630638
+    MAPE:              9.4103%
+    Correlación:       0.647900
+    Val MAE (ult.ep.): 0.104707  (espacio escalado)
+    Gap (global):      18.506614
+
+  [humidityporc2]
+    R²:                0.046550
+    STD real:          11.901924
+    STD pred:          5.809976
+    MAE (orig):        8.397169
+    RMSE:              11.621603
+    MAPE:              18.6647%
+    Correlación:       0.724935
+    Val MAE (ult.ep.): 0.104707  (espacio escalado)
+    Gap (global):      18.506614
+
+── RESUMEN COMPACTO ──
+Variable                     R²        MAE       RMSE       MAPE       Corr
+----------------------------------------------------------------------
+temperatureC            -0.0182     1.3245     1.6584      5.59%     0.7492
+humidityporc             0.0850     3.8963     5.1317      6.25%     0.4389
+temperatureC2            0.2311     2.6314     4.6306      9.41%     0.6479
+humidityporc2            0.0466     8.3972    11.6216     18.66%     0.7249
+
+  Gap global:   18.506614
+  STD val_loss: 0.001643
+======================================================================
+FIN DEL REPORTE
+======================================================================

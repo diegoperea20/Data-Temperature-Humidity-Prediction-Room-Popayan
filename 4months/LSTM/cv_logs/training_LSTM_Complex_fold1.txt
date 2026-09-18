@@ -1,0 +1,40 @@
+================================================================================
+TRAINING LOG — LSTM_Complex | Fold 1
+Fecha inicio: 2026-05-18 16:43:59
+================================================================================
+Epoch      loss           mae            val_loss       val_mae       
+--------------------------------------------------------------------------------
+Epoch 1     loss=0.045913  mae=0.158471  val_loss=0.010263  val_mae=0.082387
+Epoch 2     loss=0.012839  mae=0.087934  val_loss=0.005322  val_mae=0.055673
+Epoch 3     loss=0.008226  mae=0.070228  val_loss=0.005780  val_mae=0.057062
+Epoch 4     loss=0.007528  mae=0.066743  val_loss=0.005200  val_mae=0.053460
+Epoch 5     loss=0.007037  mae=0.064655  val_loss=0.004914  val_mae=0.051089
+Epoch 6     loss=0.006831  mae=0.063664  val_loss=0.005192  val_mae=0.052300
+Epoch 7     loss=0.006740  mae=0.063194  val_loss=0.005474  val_mae=0.053386
+Epoch 8     loss=0.006613  mae=0.062559  val_loss=0.004973  val_mae=0.050894
+Epoch 9     loss=0.006501  mae=0.062068  val_loss=0.004707  val_mae=0.049533
+Epoch 10    loss=0.006444  mae=0.061742  val_loss=0.004651  val_mae=0.050212
+Epoch 11    loss=0.006399  mae=0.061547  val_loss=0.004786  val_mae=0.048802
+Epoch 12    loss=0.006332  mae=0.061169  val_loss=0.004665  val_mae=0.050012
+Epoch 13    loss=0.006298  mae=0.061015  val_loss=0.004554  val_mae=0.048946
+Epoch 14    loss=0.006303  mae=0.060985  val_loss=0.004580  val_mae=0.048634
+Epoch 15    loss=0.006290  mae=0.060914  val_loss=0.004694  val_mae=0.048777
+Epoch 16    loss=0.006214  mae=0.060463  val_loss=0.004508  val_mae=0.048328
+Epoch 17    loss=0.006236  mae=0.060637  val_loss=0.006060  val_mae=0.053011
+Epoch 18    loss=0.006230  mae=0.060682  val_loss=0.004554  val_mae=0.048649
+Epoch 19    loss=0.006183  mae=0.060359  val_loss=0.004683  val_mae=0.050615
+Epoch 20    loss=0.006207  mae=0.060538  val_loss=0.004926  val_mae=0.050159
+Epoch 21    loss=0.006195  mae=0.060418  val_loss=0.004718  val_mae=0.049721
+Epoch 22    loss=0.006173  mae=0.060383  val_loss=0.004530  val_mae=0.049235
+Epoch 23    loss=0.006182  mae=0.060392  val_loss=0.004495  val_mae=0.048191
+Epoch 24    loss=0.006165  mae=0.060258  val_loss=0.004474  val_mae=0.048081
+Epoch 25    loss=0.007311  mae=0.065319  val_loss=0.005115  val_mae=0.052773
+Epoch 26    loss=0.006994  mae=0.063913  val_loss=0.005075  val_mae=0.052792
+Epoch 27    loss=0.006334  mae=0.061247  val_loss=0.004671  val_mae=0.049841
+Epoch 28    loss=0.006203  mae=0.060421  val_loss=0.004654  val_mae=0.049394
+Epoch 29    loss=0.006196  mae=0.060285  val_loss=0.004673  val_mae=0.049744
+Epoch 30    loss=0.006118  mae=0.059924  val_loss=0.004473  val_mae=0.048961
+--------------------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-18 17:39:14
+================================================================================
+

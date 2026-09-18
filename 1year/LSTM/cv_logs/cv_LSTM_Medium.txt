@@ -1,0 +1,85 @@
+================================================================================
+CV LOG — LSTM_Medium — 10 folds
+Fecha inicio: 2026-05-14 21:41:03
+================================================================================
+
+Fold     mean_R2      std_R2       mean_MAE     Gap          Val_MAE_last  
+--------------------------------------------------------------------------------
+Fold 1    0.514653     0.247389     2.395297     0.417132     0.058445      
+         [temperatureC] R²=0.6743 | MAE=0.5806 | RMSE=0.7338 | MAPE=2.64% | Corr=0.8255
+         [humidityporc] R²=0.0883 | MAE=3.0570 | RMSE=4.4545 | MAPE=4.91% | Corr=0.4404
+         [temperatureC2] R²=0.6792 | MAE=1.3736 | RMSE=2.2563 | MAPE=5.93% | Corr=0.8282
+         [humidityporc2] R²=0.6169 | MAE=4.5700 | RMSE=6.3898 | MAPE=7.77% | Corr=0.7957
+
+Fold 2    0.425900     0.551438     3.631429     1.053707     0.073140      
+         [temperatureC] R²=0.7618 | MAE=0.5711 | RMSE=0.7259 | MAPE=2.55% | Corr=0.9014
+         [humidityporc] R²=-0.4990 | MAE=6.5751 | RMSE=7.7437 | MAPE=11.66% | Corr=0.6848
+         [temperatureC2] R²=0.9136 | MAE=0.8727 | RMSE=1.1886 | MAPE=4.04% | Corr=0.9564
+         [humidityporc2] R²=0.5272 | MAE=6.5068 | RMSE=7.7580 | MAPE=12.17% | Corr=0.8834
+
+Fold 3    0.510530     0.373860     3.058041     1.006412     0.066831      
+         [temperatureC] R²=0.7063 | MAE=0.5903 | RMSE=0.7882 | MAPE=2.62% | Corr=0.8445
+         [humidityporc] R²=-0.1057 | MAE=5.1362 | RMSE=6.5490 | MAPE=9.32% | Corr=0.3379
+         [temperatureC2] R²=0.8830 | MAE=0.9568 | RMSE=1.3368 | MAPE=4.33% | Corr=0.9401
+         [humidityporc2] R²=0.5586 | MAE=5.5489 | RMSE=7.1287 | MAPE=10.61% | Corr=0.7634
+
+Fold 4    0.616502     0.227947     2.610267     0.592215     0.069290      
+         [temperatureC] R²=0.7677 | MAE=0.5746 | RMSE=0.7026 | MAPE=2.61% | Corr=0.9079
+         [humidityporc] R²=0.2227 | MAE=3.6924 | RMSE=4.3642 | MAPE=6.37% | Corr=0.5440
+         [temperatureC2] R²=0.7525 | MAE=1.5772 | RMSE=2.3480 | MAPE=6.90% | Corr=0.8759
+         [humidityporc2] R²=0.7231 | MAE=4.5969 | RMSE=5.7736 | MAPE=9.22% | Corr=0.8532
+
+Fold 5    0.572401     0.270829     3.378110     0.925633     0.077075      
+         [temperatureC] R²=0.7448 | MAE=0.5681 | RMSE=0.7474 | MAPE=2.59% | Corr=0.8710
+         [humidityporc] R²=0.1076 | MAE=5.6466 | RMSE=6.3906 | MAPE=9.84% | Corr=0.3713
+         [temperatureC2] R²=0.7681 | MAE=1.6720 | RMSE=2.5290 | MAPE=7.33% | Corr=0.8868
+         [humidityporc2] R²=0.6691 | MAE=5.6257 | RMSE=6.8037 | MAPE=11.48% | Corr=0.8190
+
+Fold 6    -0.740568    2.329488     3.879982     1.044431     0.085544      
+         [temperatureC] R²=0.5478 | MAE=0.6926 | RMSE=0.9438 | MAPE=3.19% | Corr=0.7509
+         [humidityporc] R²=-4.7747 | MAE=6.7631 | RMSE=7.3791 | MAPE=10.19% | Corr=0.5053
+         [temperatureC2] R²=0.6663 | MAE=1.9114 | RMSE=3.0024 | MAPE=8.20% | Corr=0.8210
+         [humidityporc2] R²=0.5984 | MAE=6.1528 | RMSE=7.5875 | MAPE=10.57% | Corr=0.8766
+
+Fold 7    0.312120     0.682752     2.876904     0.664414     0.066495      
+         [temperatureC] R²=0.5904 | MAE=0.6494 | RMSE=0.8353 | MAPE=3.00% | Corr=0.8217
+         [humidityporc] R²=-0.8638 | MAE=5.3969 | RMSE=6.4450 | MAPE=7.42% | Corr=0.3836
+         [temperatureC2] R²=0.7335 | MAE=1.5873 | RMSE=2.5627 | MAPE=6.74% | Corr=0.8612
+         [humidityporc2] R²=0.7884 | MAE=3.8740 | RMSE=5.4574 | MAPE=7.25% | Corr=0.8920
+
+Fold 8    0.439121     0.308544     3.278014     1.133598     0.078701      
+         [temperatureC] R²=0.3890 | MAE=1.0044 | RMSE=1.2432 | MAPE=4.32% | Corr=0.7586
+         [humidityporc] R²=-0.0455 | MAE=4.9721 | RMSE=5.9034 | MAPE=7.68% | Corr=0.4649
+         [temperatureC2] R²=0.6916 | MAE=2.0443 | RMSE=3.2286 | MAPE=7.99% | Corr=0.8372
+         [humidityporc2] R²=0.7214 | MAE=5.0912 | RMSE=7.0191 | MAPE=11.06% | Corr=0.8654
+
+Fold 9    0.120817     0.390737     4.246671     2.119162     0.125549      
+         [temperatureC] R²=0.1705 | MAE=1.0670 | RMSE=1.3059 | MAPE=4.66% | Corr=0.7221
+         [humidityporc] R²=-0.5205 | MAE=5.0117 | RMSE=5.9979 | MAPE=7.65% | Corr=0.1576
+         [temperatureC2] R²=0.5214 | MAE=2.6122 | RMSE=3.9830 | MAPE=10.27% | Corr=0.7541
+         [humidityporc2] R²=0.3119 | MAE=8.2957 | RMSE=11.0069 | MAPE=18.17% | Corr=0.7630
+
+Fold 10   -0.753148    1.380730     4.862844     1.955093     0.107395      
+         [temperatureC] R²=-0.2646 | MAE=1.2389 | RMSE=1.4782 | MAPE=5.81% | Corr=0.7346
+         [humidityporc] R²=-3.1231 | MAE=7.9646 | RMSE=9.3369 | MAPE=10.46% | Corr=0.1137
+         [temperatureC2] R²=0.2036 | MAE=2.5324 | RMSE=4.0795 | MAPE=11.43% | Corr=0.7594
+         [humidityporc2] R²=0.1714 | MAE=7.7156 | RMSE=10.6175 | MAPE=12.39% | Corr=0.7742
+
+================================================================================
+RESUMEN AGREGADO — LSTM_Medium
+  Promedio R²:       0.201833
+  STD(R²):           0.676371
+  Promedio MAE:      3.421756
+  Promedio Gap:      1.091180
+  Fecha fin: 2026-05-15 03:19:52
+================================================================================
+
+================================================================================
+RESUMEN AGREGADO — LSTM_Medium
+  Promedio R²:       0.201833
+  STD(R²):           0.676371
+  Promedio MAE:      3.421756
+  Promedio Gap:      1.091180
+  Fecha fin: 2026-05-16 11:24:43
+================================================================================
+

@@ -1,0 +1,60 @@
+==========================================================================================
+RANKING DE ARQUITECTURAS MLP — CROSS-VALIDATION
+Fecha: 2026-05-19 08:23:48
+N_FOLDS=3 | FILTRO: R²≥0.2 | Gap≤1.8 | STD≤0.15
+==========================================================================================
+
+Pos   Arquitectura           R²_mean      STD_R²       MAE_mean     Gap_mean     Score      Elegible
+------------------------------------------------------------------------------------------
+1     MLP_Simple             0.477128     0.422135     2.977594     0.212352     -999.000000 ❌ descartada
+2     MLP_Medium             0.466499     0.472948     3.011716     0.198893     -999.000000 ❌ descartada
+3     MLP_Light_Dropout      0.505331     0.393196     2.947321     1.368923     -999.000000 ❌ descartada
+4     MLP_Original           0.492863     0.384157     3.010040     1.192381     -999.000000 ❌ descartada
+
+==========================================================================================
+
+DETALLE POR ARQUITECTURA:
+
+  [MLP_Simple]  Score=-999.000000  DESCARTADA
+    Promedio R²:   0.477128
+    STD(R²):       0.422135
+    Promedio MAE:  2.977594
+    Promedio Gap:  0.212352
+    [temperatureC] R²=0.6949±0.0347 | MAE=0.6163±0.0695
+    [humidityporc] R²=-0.2432±0.2882 | MAE=4.8795±1.2207
+    [temperatureC2] R²=0.8274±0.0250 | MAE=1.2800±0.0552
+    [humidityporc2] R²=0.6294±0.0348 | MAE=5.1346±0.4317
+
+  [MLP_Medium]  Score=-999.000000  DESCARTADA
+    Promedio R²:   0.466499
+    STD(R²):       0.472948
+    Promedio MAE:  3.011716
+    Promedio Gap:  0.198893
+    [temperatureC] R²=0.7283±0.0169 | MAE=0.5703±0.0426
+    [humidityporc] R²=-0.3372±0.3066 | MAE=5.1347±1.4095
+    [temperatureC2] R²=0.8601±0.0129 | MAE=1.1280±0.0552
+    [humidityporc2] R²=0.6148±0.1037 | MAE=5.2138±0.8817
+
+  [MLP_Light_Dropout]  Score=-999.000000  DESCARTADA
+    Promedio R²:   0.505331
+    STD(R²):       0.393196
+    Promedio MAE:  2.947321
+    Promedio Gap:  1.368923
+    [temperatureC] R²=0.7055±0.0282 | MAE=0.5963±0.0588
+    [humidityporc] R²=-0.1585±0.2406 | MAE=4.7760±1.2263
+    [temperatureC2] R²=0.8584±0.0094 | MAE=1.1305±0.0633
+    [humidityporc2] R²=0.6160±0.0814 | MAE=5.2864±0.8093
+
+  [MLP_Original]  Score=-999.000000  DESCARTADA
+    Promedio R²:   0.492863
+    STD(R²):       0.384157
+    Promedio MAE:  3.010040
+    Promedio Gap:  1.192381
+    [temperatureC] R²=0.6463±0.1008 | MAE=0.6388±0.0679
+    [humidityporc] R²=-0.1471±0.3390 | MAE=4.8208±0.9684
+    [temperatureC2] R²=0.8622±0.0264 | MAE=1.0968±0.1243
+    [humidityporc2] R²=0.6100±0.0781 | MAE=5.4837±0.6767
+
+==========================================================================================
+FIN DEL RANKING
+==========================================================================================

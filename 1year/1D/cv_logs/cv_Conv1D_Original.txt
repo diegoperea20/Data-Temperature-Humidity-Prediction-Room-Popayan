@@ -1,0 +1,143 @@
+================================================================================
+CV LOG — Conv1D_Original — 10 folds
+Fecha inicio: 2026-05-14 07:55:28
+================================================================================
+
+─── Fold 1 ───
+  mean_R2:   0.946924
+  std_R2:    0.017998
+  mean_MAE:  0.786294
+  mean_MAPE: 1.7617%
+  Gap (val_mae-train_mae)/train_mae: 0.053771
+  Train MAE última época: 0.015048
+  Val   MAE última época: 0.015858
+    [temperatureC] R²=0.9742 | MAE=0.1237 | RMSE=0.2051 | MAPE=0.57%
+    [humidityporc] R²=0.9239 | MAE=0.7908 | RMSE=1.2885 | MAPE=1.23%
+    [temperatureC2] R²=0.9476 | MAE=0.5534 | RMSE=0.9172 | MAPE=2.48%
+    [humidityporc2] R²=0.9420 | MAE=1.6772 | RMSE=2.5011 | MAPE=2.76%
+
+─── Fold 2 ───
+  mean_R2:   0.948780
+  std_R2:    0.009426
+  mean_MAE:  0.872292
+  mean_MAPE: 2.1360%
+  Gap (val_mae-train_mae)/train_mae: 0.270561
+  Train MAE última época: 0.015464
+  Val   MAE última época: 0.019648
+    [temperatureC] R²=0.9645 | MAE=0.1706 | RMSE=0.2816 | MAPE=0.77%
+    [humidityporc] R²=0.9468 | MAE=0.9390 | RMSE=1.4933 | MAPE=1.62%
+    [temperatureC2] R²=0.9399 | MAE=0.6332 | RMSE=0.9789 | MAPE=2.89%
+    [humidityporc2] R²=0.9438 | MAE=1.7463 | RMSE=2.6626 | MAPE=3.26%
+
+─── Fold 3 ───
+  mean_R2:   0.940760
+  std_R2:    0.018856
+  mean_MAE:  0.908926
+  mean_MAPE: 2.1745%
+  Gap (val_mae-train_mae)/train_mae: 0.328395
+  Train MAE última época: 0.015820
+  Val   MAE última época: 0.021015
+    [temperatureC] R²=0.9645 | MAE=0.1725 | RMSE=0.2731 | MAPE=0.77%
+    [humidityporc] R²=0.9129 | MAE=1.0781 | RMSE=1.7999 | MAPE=1.91%
+    [temperatureC2] R²=0.9489 | MAE=0.5434 | RMSE=0.8946 | MAPE=2.42%
+    [humidityporc2] R²=0.9367 | MAE=1.8417 | RMSE=2.7110 | MAPE=3.59%
+
+─── Fold 4 ───
+  mean_R2:   0.936671
+  std_R2:    0.034523
+  mean_MAE:  0.902798
+  mean_MAPE: 2.4769%
+  Gap (val_mae-train_mae)/train_mae: 0.349201
+  Train MAE última época: 0.016502
+  Val   MAE última época: 0.022265
+    [temperatureC] R²=0.9697 | MAE=0.1185 | RMSE=0.2548 | MAPE=0.54%
+    [humidityporc] R²=0.9646 | MAE=0.6423 | RMSE=0.9650 | MAPE=1.10%
+    [temperatureC2] R²=0.8834 | MAE=1.0135 | RMSE=1.5753 | MAPE=4.61%
+    [humidityporc2] R²=0.9290 | MAE=1.8370 | RMSE=2.9068 | MAPE=3.66%
+
+─── Fold 5 ───
+  mean_R2:   0.959726
+  std_R2:    0.007541
+  mean_MAE:  0.839439
+  mean_MAPE: 2.0841%
+  Gap (val_mae-train_mae)/train_mae: 0.381583
+  Train MAE última época: 0.014768
+  Val   MAE última época: 0.020404
+    [temperatureC] R²=0.9708 | MAE=0.1699 | RMSE=0.2516 | MAPE=0.77%
+    [humidityporc] R²=0.9521 | MAE=1.0061 | RMSE=1.4512 | MAPE=1.72%
+    [temperatureC2] R²=0.9535 | MAE=0.6495 | RMSE=1.1511 | MAPE=2.77%
+    [humidityporc2] R²=0.9625 | MAE=1.5323 | RMSE=2.3000 | MAPE=3.07%
+
+─── Fold 6 ───
+  mean_R2:   0.907311
+  std_R2:    0.093392
+  mean_MAE:  0.934090
+  mean_MAPE: 2.0750%
+  Gap (val_mae-train_mae)/train_mae: 0.324124
+  Train MAE última época: 0.014291
+  Val   MAE última época: 0.018923
+    [temperatureC] R²=0.9652 | MAE=0.1515 | RMSE=0.2614 | MAPE=0.69%
+    [humidityporc] R²=0.7456 | MAE=1.2527 | RMSE=1.5498 | MAPE=1.89%
+    [temperatureC2] R²=0.9592 | MAE=0.6447 | RMSE=1.0447 | MAPE=2.73%
+    [humidityporc2] R²=0.9593 | MAE=1.6874 | RMSE=2.4088 | MAPE=2.99%
+
+─── Fold 7 ───
+  mean_R2:   0.939827
+  std_R2:    0.022877
+  mean_MAE:  0.885430
+  mean_MAPE: 2.0260%
+  Gap (val_mae-train_mae)/train_mae: 0.447071
+  Train MAE última época: 0.014730
+  Val   MAE última época: 0.021316
+    [temperatureC] R²=0.9520 | MAE=0.2001 | RMSE=0.2853 | MAPE=0.91%
+    [humidityporc] R²=0.9002 | MAE=0.9903 | RMSE=1.4754 | MAPE=1.46%
+    [temperatureC2] R²=0.9531 | MAE=0.6031 | RMSE=1.0826 | MAPE=2.55%
+    [humidityporc2] R²=0.9539 | MAE=1.7483 | RMSE=2.5589 | MAPE=3.19%
+
+─── Fold 8 ───
+  mean_R2:   0.965339
+  std_R2:    0.011042
+  mean_MAE:  0.704127
+  mean_MAPE: 1.6983%
+  Gap (val_mae-train_mae)/train_mae: 0.181649
+  Train MAE última época: 0.014204
+  Val   MAE última época: 0.016785
+    [temperatureC] R²=0.9721 | MAE=0.1731 | RMSE=0.2634 | MAPE=0.76%
+    [humidityporc] R²=0.9466 | MAE=0.8310 | RMSE=1.3484 | MAPE=1.29%
+    [temperatureC2] R²=0.9682 | MAE=0.5644 | RMSE=1.0329 | MAPE=2.26%
+    [humidityporc2] R²=0.9745 | MAE=1.2481 | RMSE=2.1176 | MAPE=2.48%
+
+─── Fold 9 ───
+  mean_R2:   0.972436
+  std_R2:    0.008528
+  mean_MAE:  0.568145
+  mean_MAPE: 1.3624%
+  Gap (val_mae-train_mae)/train_mae: -0.065208
+  Train MAE última época: 0.014472
+  Val   MAE última época: 0.013528
+    [temperatureC] R²=0.9793 | MAE=0.1395 | RMSE=0.2097 | MAPE=0.62%
+    [humidityporc] R²=0.9582 | MAE=0.5692 | RMSE=1.0001 | MAPE=0.85%
+    [temperatureC2] R²=0.9735 | MAE=0.4571 | RMSE=0.9407 | MAPE=1.81%
+    [humidityporc2] R²=0.9787 | MAE=1.1068 | RMSE=1.9478 | MAPE=2.16%
+
+─── Fold 10 ───
+  mean_R2:   0.963541
+  std_R2:    0.010620
+  mean_MAE:  0.595615
+  mean_MAPE: 1.3543%
+  Gap (val_mae-train_mae)/train_mae: -0.039862
+  Train MAE última época: 0.014519
+  Val   MAE última época: 0.013940
+    [temperatureC] R²=0.9758 | MAE=0.1238 | RMSE=0.2018 | MAPE=0.57%
+    [humidityporc] R²=0.9478 | MAE=0.6616 | RMSE=1.0222 | MAPE=0.92%
+    [temperatureC2] R²=0.9605 | MAE=0.4506 | RMSE=0.9056 | MAPE=1.89%
+    [humidityporc2] R²=0.9701 | MAE=1.1465 | RMSE=2.0028 | MAPE=2.04%
+
+================================================================================
+RESUMEN AGREGADO — Conv1D_Original
+  Promedio R²:   0.948132
+  STD(R²):       0.023480
+  Promedio MAE:  0.799716
+  Promedio Gap:  0.223128
+================================================================================
+

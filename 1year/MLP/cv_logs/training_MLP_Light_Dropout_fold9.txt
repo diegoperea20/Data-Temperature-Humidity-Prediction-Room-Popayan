@@ -1,0 +1,26 @@
+======================================================================
+TRAINING LOG — MLP_Light_Dropout | Fold 9
+Fecha inicio: 2026-05-15 20:23:19
+======================================================================
+Epoch      loss           mae            val_loss       val_mae       
+----------------------------------------------------------------------
+Epoch 1     loss=0.008848  mae=0.069245  val_loss=0.029789  val_mae=0.126401
+Epoch 2     loss=0.006516  mae=0.059957  val_loss=0.036269  val_mae=0.141478
+Epoch 3     loss=0.006217  mae=0.058614  val_loss=0.036622  val_mae=0.140091
+Epoch 4     loss=0.006051  mae=0.057894  val_loss=0.033956  val_mae=0.135659
+Epoch 5     loss=0.005939  mae=0.057345  val_loss=0.029500  val_mae=0.123813
+Epoch 6     loss=0.005860  mae=0.056917  val_loss=0.029946  val_mae=0.127138
+Epoch 7     loss=0.005804  mae=0.056585  val_loss=0.024673  val_mae=0.112225
+Epoch 8     loss=0.005738  mae=0.056258  val_loss=0.030114  val_mae=0.123148
+Epoch 9     loss=0.005704  mae=0.056040  val_loss=0.024571  val_mae=0.111835
+Epoch 10    loss=0.005674  mae=0.055891  val_loss=0.029328  val_mae=0.124076
+Epoch 11    loss=0.005631  mae=0.055631  val_loss=0.032452  val_mae=0.133613
+Epoch 12    loss=0.005602  mae=0.055489  val_loss=0.035052  val_mae=0.141678
+Epoch 13    loss=0.005619  mae=0.055569  val_loss=0.030147  val_mae=0.127630
+Epoch 14    loss=0.005595  mae=0.055450  val_loss=0.034990  val_mae=0.139291
+Epoch 15    loss=0.005584  mae=0.055335  val_loss=0.032473  val_mae=0.131844
+Epoch 16    loss=0.005560  mae=0.055264  val_loss=0.034146  val_mae=0.139455
+----------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-15 20:31:36
+======================================================================
+

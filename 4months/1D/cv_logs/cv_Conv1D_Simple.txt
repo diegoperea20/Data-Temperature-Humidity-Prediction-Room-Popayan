@@ -1,0 +1,52 @@
+================================================================================
+CV LOG — Conv1D_Simple — 3 folds
+Fecha inicio: 2026-05-19 08:21:41
+================================================================================
+
+─── Fold 1 ───
+  mean_R2:   0.929053
+  std_R2:    0.033108
+  mean_MAE:  0.965960
+  mean_MAPE: 2.0908%
+  Gap (val_mae-train_mae)/train_mae: 0.093757
+  Train MAE última época: 0.024598
+  Val   MAE última época: 0.026904
+    [temperatureC] R²=0.9632 | MAE=0.1736 | RMSE=0.2518 | MAPE=0.80%
+    [humidityporc] R²=0.8743 | MAE=1.2277 | RMSE=1.6700 | MAPE=1.89%
+    [temperatureC2] R²=0.9417 | MAE=0.6017 | RMSE=0.9706 | MAPE=2.68%
+    [humidityporc2] R²=0.9371 | MAE=1.8608 | RMSE=2.6116 | MAPE=3.00%
+
+─── Fold 2 ───
+  mean_R2:   0.924069
+  std_R2:    0.025081
+  mean_MAE:  1.040803
+  mean_MAPE: 2.3531%
+  Gap (val_mae-train_mae)/train_mae: 0.065274
+  Train MAE última época: 0.024155
+  Val   MAE última época: 0.025732
+    [temperatureC] R²=0.9471 | MAE=0.2194 | RMSE=0.3205 | MAPE=0.99%
+    [humidityporc] R²=0.8836 | MAE=1.3435 | RMSE=1.9256 | MAPE=2.25%
+    [temperatureC2] R²=0.9426 | MAE=0.5901 | RMSE=0.9494 | MAPE=2.66%
+    [humidityporc2] R²=0.9230 | MAE=2.0102 | RMSE=2.9457 | MAPE=3.51%
+
+─── Fold 3 ───
+  mean_R2:   0.903302
+  std_R2:    0.046715
+  mean_MAE:  1.348512
+  mean_MAPE: 3.1688%
+  Gap (val_mae-train_mae)/train_mae: 0.513494
+  Train MAE última época: 0.025869
+  Val   MAE última época: 0.039152
+    [temperatureC] R²=0.9493 | MAE=0.2459 | RMSE=0.3437 | MAPE=1.10%
+    [humidityporc] R²=0.8281 | MAE=2.0027 | RMSE=2.6670 | MAPE=3.69%
+    [temperatureC2] R²=0.9342 | MAE=0.6310 | RMSE=1.0212 | MAPE=2.79%
+    [humidityporc2] R²=0.9015 | MAE=2.5145 | RMSE=3.4637 | MAPE=5.09%
+
+================================================================================
+RESUMEN AGREGADO — Conv1D_Simple
+  Promedio R²:   0.918808
+  STD(R²):       0.034968
+  Promedio MAE:  1.118425
+  Promedio Gap:  0.224175
+================================================================================
+

@@ -1,0 +1,29 @@
+======================================================================
+TRAINING LOG — MLP_Original | Fold 2
+Fecha inicio: 2026-05-15 19:26:29
+======================================================================
+Epoch      loss           mae            val_loss       val_mae       
+----------------------------------------------------------------------
+Epoch 1     loss=0.004985  mae=0.052705  val_loss=0.009953  val_mae=0.075921
+Epoch 2     loss=0.003729  mae=0.046282  val_loss=0.010060  val_mae=0.076634
+Epoch 3     loss=0.003363  mae=0.043728  val_loss=0.007659  val_mae=0.066905
+Epoch 4     loss=0.003039  mae=0.041463  val_loss=0.009577  val_mae=0.074162
+Epoch 5     loss=0.002818  mae=0.039691  val_loss=0.010507  val_mae=0.076940
+Epoch 6     loss=0.002632  mae=0.038161  val_loss=0.009530  val_mae=0.073312
+Epoch 7     loss=0.002521  mae=0.037312  val_loss=0.008124  val_mae=0.068000
+Epoch 8     loss=0.002411  mae=0.036419  val_loss=0.006722  val_mae=0.062138
+Epoch 9     loss=0.002314  mae=0.035598  val_loss=0.006944  val_mae=0.063556
+Epoch 10    loss=0.002233  mae=0.034987  val_loss=0.006879  val_mae=0.062763
+Epoch 11    loss=0.002131  mae=0.034261  val_loss=0.005335  val_mae=0.057043
+Epoch 12    loss=0.002034  mae=0.033442  val_loss=0.005263  val_mae=0.056476
+Epoch 13    loss=0.001957  mae=0.032789  val_loss=0.006274  val_mae=0.061590
+Epoch 14    loss=0.001894  mae=0.032197  val_loss=0.006357  val_mae=0.061735
+Epoch 15    loss=0.001848  mae=0.031696  val_loss=0.006400  val_mae=0.061760
+Epoch 16    loss=0.001816  mae=0.031390  val_loss=0.007164  val_mae=0.063468
+Epoch 17    loss=0.001786  mae=0.031095  val_loss=0.009387  val_mae=0.072042
+Epoch 18    loss=0.001714  mae=0.030433  val_loss=0.008855  val_mae=0.070744
+Epoch 19    loss=0.001689  mae=0.030087  val_loss=0.008229  val_mae=0.068972
+----------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-15 19:28:44
+======================================================================
+

@@ -1,0 +1,30 @@
+======================================================================
+TRAINING LOG — MLP_Simple | Fold 5
+Fecha inicio: 2026-05-15 21:46:23
+======================================================================
+Epoch      loss           mae            val_loss       val_mae       
+----------------------------------------------------------------------
+Epoch 1     loss=0.012237  mae=0.081025  val_loss=0.009205  val_mae=0.075761
+Epoch 2     loss=0.007193  mae=0.064104  val_loss=0.008738  val_mae=0.072916
+Epoch 3     loss=0.006924  mae=0.063068  val_loss=0.008851  val_mae=0.072775
+Epoch 4     loss=0.006836  mae=0.062837  val_loss=0.008500  val_mae=0.072308
+Epoch 5     loss=0.006781  mae=0.062585  val_loss=0.009266  val_mae=0.076104
+Epoch 6     loss=0.006749  mae=0.062454  val_loss=0.008499  val_mae=0.072506
+Epoch 7     loss=0.006709  mae=0.062310  val_loss=0.008582  val_mae=0.070717
+Epoch 8     loss=0.006692  mae=0.062276  val_loss=0.008853  val_mae=0.073505
+Epoch 9     loss=0.006703  mae=0.062298  val_loss=0.009148  val_mae=0.074295
+Epoch 10    loss=0.006694  mae=0.062223  val_loss=0.008918  val_mae=0.074152
+Epoch 11    loss=0.006665  mae=0.062173  val_loss=0.008941  val_mae=0.073248
+Epoch 12    loss=0.006634  mae=0.062132  val_loss=0.008789  val_mae=0.073926
+Epoch 13    loss=0.006662  mae=0.062148  val_loss=0.008489  val_mae=0.072535
+Epoch 14    loss=0.006681  mae=0.062214  val_loss=0.008671  val_mae=0.073076
+Epoch 15    loss=0.006672  mae=0.062107  val_loss=0.009099  val_mae=0.074720
+Epoch 16    loss=0.006692  mae=0.062156  val_loss=0.008705  val_mae=0.074225
+Epoch 17    loss=0.006649  mae=0.062087  val_loss=0.008758  val_mae=0.073775
+Epoch 18    loss=0.006665  mae=0.062117  val_loss=0.009172  val_mae=0.074715
+Epoch 19    loss=0.006666  mae=0.062165  val_loss=0.008609  val_mae=0.072267
+Epoch 20    loss=0.006614  mae=0.061936  val_loss=0.009477  val_mae=0.075363
+----------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-15 21:52:05
+======================================================================
+

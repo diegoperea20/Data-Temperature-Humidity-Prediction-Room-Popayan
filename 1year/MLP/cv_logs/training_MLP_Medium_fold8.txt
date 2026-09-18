@@ -1,0 +1,29 @@
+======================================================================
+TRAINING LOG — MLP_Medium | Fold 8
+Fecha inicio: 2026-05-15 21:02:31
+======================================================================
+Epoch      loss           mae            val_loss       val_mae       
+----------------------------------------------------------------------
+Epoch 1     loss=0.011644  mae=0.080571  val_loss=0.012443  val_mae=0.083182
+Epoch 2     loss=0.008391  mae=0.069325  val_loss=0.012342  val_mae=0.080983
+Epoch 3     loss=0.008107  mae=0.068119  val_loss=0.012113  val_mae=0.080713
+Epoch 4     loss=0.007955  mae=0.067457  val_loss=0.012086  val_mae=0.079935
+Epoch 5     loss=0.007867  mae=0.067106  val_loss=0.012427  val_mae=0.082522
+Epoch 6     loss=0.007805  mae=0.066794  val_loss=0.011740  val_mae=0.079508
+Epoch 7     loss=0.007738  mae=0.066562  val_loss=0.011853  val_mae=0.079263
+Epoch 8     loss=0.007685  mae=0.066256  val_loss=0.011653  val_mae=0.079022
+Epoch 9     loss=0.007631  mae=0.065977  val_loss=0.012180  val_mae=0.081171
+Epoch 10    loss=0.007616  mae=0.065843  val_loss=0.012048  val_mae=0.080848
+Epoch 11    loss=0.007598  mae=0.065750  val_loss=0.012058  val_mae=0.080205
+Epoch 12    loss=0.007584  mae=0.065670  val_loss=0.011341  val_mae=0.078753
+Epoch 13    loss=0.007586  mae=0.065703  val_loss=0.011802  val_mae=0.080516
+Epoch 14    loss=0.007603  mae=0.065734  val_loss=0.011749  val_mae=0.080158
+Epoch 15    loss=0.007607  mae=0.065893  val_loss=0.011791  val_mae=0.080287
+Epoch 16    loss=0.007534  mae=0.065600  val_loss=0.012152  val_mae=0.082104
+Epoch 17    loss=0.007513  mae=0.065466  val_loss=0.012072  val_mae=0.082110
+Epoch 18    loss=0.007513  mae=0.065419  val_loss=0.011581  val_mae=0.079766
+Epoch 19    loss=0.007512  mae=0.065483  val_loss=0.011765  val_mae=0.079943
+----------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-15 21:11:24
+======================================================================
+

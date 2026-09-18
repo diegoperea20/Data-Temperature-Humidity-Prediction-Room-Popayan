@@ -1,0 +1,53 @@
+================================================================================
+CV LOG — MLP_Original — 3 folds
+Fecha inicio: 2026-05-19 08:08:08
+================================================================================
+
+─── Fold 1 ───
+  mean_R²:           0.510355
+  std_R²:            0.308206
+  mean_MAE:          2.619730
+  mean_MAPE:         5.5759%
+  Gap (val_mae - train_mae) / train_mae: 0.757914
+  Train MAE última época: 0.039344
+  Val   MAE última época: 0.069163
+    [temperatureC] R²=0.5477 | MAE=0.6887 | RMSE=0.8859 | MAPE=3.12%
+    [humidityporc] R²=0.0045 | MAE=3.6535 | RMSE=4.7113 | MAPE=5.71%
+    [temperatureC2] R²=0.8250 | MAE=1.2596 | RMSE=1.6662 | MAPE=5.79%
+    [humidityporc2] R²=0.6642 | MAE=4.8772 | RMSE=5.9799 | MAPE=7.67%
+
+─── Fold 2 ───
+  mean_R²:           0.341908
+  std_R²:            0.570401
+  mean_MAE:          3.552669
+  mean_MAPE:         7.1953%
+  Gap (val_mae - train_mae) / train_mae: 1.538653
+  Train MAE última época: 0.031570
+  Val   MAE última época: 0.080146
+    [temperatureC] R²=0.6064 | MAE=0.6849 | RMSE=0.8647 | MAPE=3.09%
+    [humidityporc] R²=-0.6167 | MAE=6.0248 | RMSE=6.9583 | MAPE=9.81%
+    [temperatureC2] R²=0.8783 | MAE=1.0728 | RMSE=1.3980 | MAPE=4.95%
+    [humidityporc2] R²=0.4996 | MAE=6.4281 | RMSE=7.5599 | MAPE=10.92%
+
+─── Fold 3 ───
+  mean_R²:           0.626325
+  std_R²:            0.273865
+  mean_MAE:          2.857723
+  mean_MAPE:         6.3379%
+  Gap (val_mae - train_mae) / train_mae: 1.280575
+  Train MAE última época: 0.034471
+  Val   MAE última época: 0.078613
+    [temperatureC] R²=0.7847 | MAE=0.5428 | RMSE=0.7208 | MAPE=2.44%
+    [humidityporc] R²=0.1710 | MAE=4.7842 | RMSE=5.8764 | MAPE=8.66%
+    [temperatureC2] R²=0.8832 | MAE=0.9580 | RMSE=1.3549 | MAPE=4.32%
+    [humidityporc2] R²=0.6664 | MAE=5.1459 | RMSE=6.3548 | MAPE=9.93%
+
+================================================================================
+RESUMEN AGREGADO — MLP_Original
+  Promedio R²:        0.492863
+  STD(R²):            0.384157
+  Promedio MAE:       3.010040
+  Promedio Gap:       1.192381
+  Fecha fin:          2026-05-19 08:13:06
+================================================================================
+

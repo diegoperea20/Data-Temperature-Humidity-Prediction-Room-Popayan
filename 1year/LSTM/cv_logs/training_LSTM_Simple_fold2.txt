@@ -1,0 +1,31 @@
+================================================================================
+TRAINING LOG — LSTM_Simple | Fold 2
+Fecha inicio: 2026-05-14 17:51:44
+================================================================================
+Epoch      loss           mae            val_loss       val_mae       
+--------------------------------------------------------------------------------
+Epoch 1     loss=0.010818  mae=0.076020  val_loss=0.009627  val_mae=0.074403
+Epoch 2     loss=0.004536  mae=0.051037  val_loss=0.011130  val_mae=0.079405
+Epoch 3     loss=0.004114  mae=0.048546  val_loss=0.009703  val_mae=0.073742
+Epoch 4     loss=0.003960  mae=0.047586  val_loss=0.009644  val_mae=0.073384
+Epoch 5     loss=0.003843  mae=0.046788  val_loss=0.010294  val_mae=0.076428
+Epoch 6     loss=0.003715  mae=0.045848  val_loss=0.009764  val_mae=0.074442
+Epoch 7     loss=0.003457  mae=0.044128  val_loss=0.008992  val_mae=0.071723
+Epoch 8     loss=0.003810  mae=0.046538  val_loss=0.008323  val_mae=0.068168
+Epoch 9     loss=0.003281  mae=0.043084  val_loss=0.008441  val_mae=0.070607
+Epoch 10    loss=0.002963  mae=0.040759  val_loss=0.008557  val_mae=0.071241
+Epoch 11    loss=0.002765  mae=0.039094  val_loss=0.009896  val_mae=0.075287
+Epoch 12    loss=0.002727  mae=0.038743  val_loss=0.009700  val_mae=0.075813
+Epoch 13    loss=0.002605  mae=0.037848  val_loss=0.008872  val_mae=0.071795
+Epoch 14    loss=0.002543  mae=0.037343  val_loss=0.008163  val_mae=0.069105
+Epoch 15    loss=0.002418  mae=0.036351  val_loss=0.008777  val_mae=0.071967
+Epoch 16    loss=0.002343  mae=0.035733  val_loss=0.009303  val_mae=0.073608
+Epoch 17    loss=0.002283  mae=0.035221  val_loss=0.008488  val_mae=0.070001
+Epoch 18    loss=0.002217  mae=0.034710  val_loss=0.009632  val_mae=0.074557
+Epoch 19    loss=0.002225  mae=0.034657  val_loss=0.010015  val_mae=0.076276
+Epoch 20    loss=0.002159  mae=0.034120  val_loss=0.008956  val_mae=0.072247
+Epoch 21    loss=0.002130  mae=0.033782  val_loss=0.009860  val_mae=0.075622
+--------------------------------------------------------------------------------
+Entrenamiento finalizado: 2026-05-14 18:07:07
+================================================================================
+
