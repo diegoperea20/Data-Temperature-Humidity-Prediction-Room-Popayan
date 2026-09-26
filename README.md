@@ -323,7 +323,11 @@ The results support the use of the model as a support tool for preventive monito
 As future work, it is recommended to extend the validation to multiple dwellings, to incorporate exogenous variables and to explore higher-precision sensors and uncertainty quantification to improve the operational robustness of the system.
 
 
+#### Potential improvements
 
+- Conduct in-depth research to find optimal parameters for each architecture (MLP, CNN, LSTM)
+- Perform the same for GRU
+- Deploy or run inference using the same range as the training data
 
 ---
 

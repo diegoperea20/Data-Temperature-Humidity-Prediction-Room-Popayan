@@ -1,0 +1,86 @@
+# =============================================================================
+# Uso:
+#   CPU (defecto):            docker compose run --rm app-cpu python autofold_1year.py
+#                             docker compose run --rm app-cpu python predictionsRange.py
+#   GPU (requiere
+#   nvidia-container-toolkit): docker compose --profile gpu run --rm app-gpu python predictionsRange.py
+#   Jupyter (reentrenar):     docker compose --profile jupyter up jupyter  -> http://localhost:8888
+# Datos y modelos SIEMPRE por volumen (no dentro de la imagen).
+# =============================================================================
+
+x-common-volumes: &common-volumes
+  - ./1year/dataclean_1year.csv:/data/dataclean_1year.csv:ro
+  - ./1year/habitacion.csv:/data/habitacion.csv:ro
+  - ./4months/dataclean_4months.csv:/data/dataclean_4months.csv:ro
+  - ./1year/1D/best_conv1d_model_final.h5:/data/models/best_conv1d_model_final.h5:ro
+  - ./outputs:/workspace/outputs
+
+services:
+  # ------------------------- inferencia / autofold CPU -----------------------
+  app-cpu:
+    build:
+      context: .
+      target: runtime
+      args:
+        TF_PACKAGE: tensorflow-cpu==2.10.0
+    image: maestria:cpu
+    stdin_open: true
+    tty: true
+    environment:
+      MODEL_PATH: /data/models/best_conv1d_model_final.h5
+      TRAIN_DATASET_PATH: /data/dataclean_1year.csv
+      COMPARE_DATASET_PATH: /data/habitacion.csv
+      CSV_PATH: /data/dataclean_1year.csv
+      OUTPUT_DIR: /workspace/outputs
+      MPLBACKEND: Agg
+    volumes: *common-volumes
+
+  # ------------------------- variante GPU (mismo Dockerfile) -----------------
+  # Activa con: docker compose --profile gpu run --rm app-gpu python predictionsRange.py
+  # Requiere NVIDIA Container Toolkit. Si el equipo no tiene GPU, usa app-cpu.
+  app-gpu:
+    profiles: [gpu]
+    build:
+      context: .
+      target: runtime
+      args:
+        # TF 2.10 GPU necesita CUDA 11.2 + cuDNN 8.1 en el host/container toolkit.
+        TF_PACKAGE: tensorflow==2.10.0
+    image: maestria:gpu
+    stdin_open: true
+    tty: true
+    gpus: all
+    environment:
+      MODEL_PATH: /data/models/best_conv1d_model_final.h5
+      TRAIN_DATASET_PATH: /data/dataclean_1year.csv
+      COMPARE_DATASET_PATH: /data/habitacion.csv
+      CSV_PATH: /data/dataclean_1year.csv
+      OUTPUT_DIR: /workspace/outputs
+      MPLBACKEND: Agg
+      NVIDIA_VISIBLE_DEVICES: all
+      NVIDIA_DRIVER_CAPABILITIES: compute,utility
+    volumes: *common-volumes
+
+  # ------------------------- Jupyter para reentrenamiento --------------------
+  # Activa con: docker compose --profile jupyter up jupyter
+  jupyter:
+    profiles: [jupyter, tools]
+    build:
+      context: .
+      target: runtime
+      args:
+        TF_PACKAGE: tensorflow-cpu==2.10.0
+    image: maestria:cpu
+    command: ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+    ports:
+      - "8888:8888"
+    environment:
+      MPLBACKEND: Agg
+      OUTPUT_DIR: /workspace/outputs
+    volumes:
+      # Repo completo para abrir los .ipynb de 1D/LSTM/MLP (1year y 4months).
+      - ./:/workspace/repo
+      - ./outputs:/workspace/outputs
+      - ./1year/dataclean_1year.csv:/data/dataclean_1year.csv:ro
+      - ./1year/habitacion.csv:/data/habitacion.csv:ro
+      - ./4months/dataclean_4months.csv:/data/dataclean_4months.csv:ro

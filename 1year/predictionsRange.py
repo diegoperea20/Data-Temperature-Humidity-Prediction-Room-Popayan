@@ -11,14 +11,14 @@ from datetime import datetime, timedelta
 # CONFIG
 # =============================================================================
 
-# Dataset ORIGINAL usado para entrenar
-TRAIN_DATASET_PATH = "dataclean_1year.csv"
+# Dataset ORIGINAL usado para entrenar (parametrizable por ENV para Docker)
+TRAIN_DATASET_PATH = os.getenv("TRAIN_DATASET_PATH", "dataclean_1year.csv")
 
-# Dataset REAL para comparar
-COMPARE_DATASET_PATH = "habitacion.csv"
+# Dataset REAL para comparar (parametrizable por ENV para Docker)
+COMPARE_DATASET_PATH = os.getenv("COMPARE_DATASET_PATH", "habitacion.csv")
 
-# Modelo .h5
-MODEL_PATH = "C:\\Users\\user\\Desktop\\1year\\1D\\best_conv1d_model_final.h5"
+# Modelo .h5 (parametrizable por ENV para Docker; antes ruta absoluta Windows)
+MODEL_PATH = os.getenv("MODEL_PATH", "1D/best_conv1d_model_final.h5")
 
 SEQ_LEN = 60
 
@@ -398,7 +398,12 @@ merged_df = pd.merge(
 # SAVE CSV
 # =============================================================================
 
-SAVE_PATH = "prediction_vs_real.csv"
+SAVE_PATH = os.path.join(
+    os.getenv("OUTPUT_DIR", "."),
+    "prediction_vs_real.csv"
+)
+
+os.makedirs(os.getenv("OUTPUT_DIR", "."), exist_ok=True)
 
 merged_df.to_csv(
     SAVE_PATH,
@@ -504,10 +509,19 @@ for var, label in variables:
     plt.tight_layout()
 
     # =========================================================================
-    # SHOW
+    # SAVE (headless: funciona con MPLBACKEND=Agg en Docker; antes plt.show())
     # =========================================================================
 
-    plt.show()
+    _output_dir = os.getenv("OUTPUT_DIR", ".")
+
+    os.makedirs(_output_dir, exist_ok=True)
+
+    plt.savefig(
+        os.path.join(_output_dir, f"prediction_vs_real_{var}.png"),
+        dpi=150
+    )
+
+    plt.close()
 
 # =============================================================================
 # METRICS

@@ -323,8 +323,11 @@ Los resultados respaldan el uso del modelo como herramienta de apoyo para monito
 
 Como trabajo futuro, se recomienda extender la validación a múltiples viviendas, incorporar variables exógenas y explorar sensores de mayor precisión y cuantificación de incertidumbre para mejorar la robustez operacional del sistema.
 
+#### Mejoras posibles 
 
-
+- Realizar deep research en busqueda deparametros optimos para cada arquitectura MLP, CNN, LSTM
+- Realizarlo con GRU
+- deploy o inferencia con mismo rango de entrenamiento
 
 ---
 

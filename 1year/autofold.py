@@ -18,8 +18,8 @@ import os
 # ▶ CONFIGURACIÓN — edita aquí
 # ==============================
 
-CSV_PATH         = 'C:/Users/user/Desktop/1year/dataclean_1year.csv'
-#CSV_PATH         = 'C:/Users/user/Desktop/1year/dataclean_4months.csv'
+CSV_PATH         = os.getenv('CSV_PATH', 'dataclean_1year.csv')
+#CSV_PATH         = 'dataclean_4months.csv'
 
 COL_DATE         = 'date'       # columna con la fecha (YYYY-MM-DD)
 COL_HOURS        = 'hours'      # columna con la hora   (0-23)

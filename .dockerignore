@@ -1,0 +1,31 @@
+# Build context minimo: datos y modelos van por volumen en compose.
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+
+# Datasets (se montan como :ro en docker-compose).
+*.csv
+
+# Modelos y checkpoints (solo el .h5 final se monta por volumen).
+*.h5
+**/cv_checkpoints/
+**/training_checkpoints/
+**/cv_logs/
+**/training_logs/
+
+# Notebooks y salidas locales (jupyter monta el repo completo si se desea).
+*.ipynb
+prediction_vs_real.csv
+*.png
+outputs/
+1year/__pycache__/
+
+# Entornos locales.
+.conda/
+.venv/
+venv/
