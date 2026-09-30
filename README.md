@@ -55,7 +55,15 @@ Multivariate time series forecasting system for **indoor temperature and humidit
 | 533048  | 2026-05-01 | 20    | 1       | 24.8         | 62           | 22.2          | 63            |
 | 533049  | 2026-05-01 | 20    | 2       | 24.8         | 62           | 22.2          | 63            |
 
+## Project Publication
 
+<p align="center">
+  <img src="README-images/Desarrollo de un modelo predictivo de temperatura y humedad para anticipar condiciones críticas que afecten la salud en una habitación de Popayán.png" alt="Desarrollo de un modelo predictivo de temperatura y humedad para anticipar condiciones críticas que afecten la salud en una habitación de Popayán">
+</p>
+
+[Project Publication Desarrollo de un modelo predictivo de temperatura y humedad para anticipar condiciones críticas que afecten la salud en una habitación de Popayán](https://red.uao.edu.co/entities/publication/b4f8286b-088c-4b69-9179-17b0b22bbd6b)
+
+---
 
 ## Dataset acquisition and web application repositories 
 
